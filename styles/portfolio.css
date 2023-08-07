@@ -27,6 +27,7 @@ font-weight: 700;
   color: #181818;
   font-size: 45px;
   font-weight: 800;
+  padding-top: 51px;
 }
 nav > ul{
     display: flex;
@@ -43,12 +44,42 @@ nav a{
 /* header related style */
 .header{
     background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .banner{
-    padding: 0px 200px;
+    padding: 0px 38px 0px  200px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .banner.profile-pic{
     width: 500px;
+
 }
+.banner-greeting{
+    color: #474747;
+font-size: 45px;
+font-weight: 600;
+margin-bottom:0;
+margin-top: 151px;
+}
+.banner-title{
+    color: #181818;
+font-size: 85px;
+font-weight: 700;
+margin-top: 5px;
+margin-bottom: 20px;
+}
+.banner-title > p {
+    color: #757575;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+}
+.banner-description{
+    width: 585px;
+}
+/* main section styles */
+/* about section styles */
